@@ -37,9 +37,8 @@
 # **Ввод:** пара-ра-рам рам-пам-папам па-ра-па-да    
 #     **Вывод:** Парам пам-пам  
 
-# song = 'пара-ра-рам рам-пам-папам па-ра-па-да'
-# list1 = song.split()
-# letter=set(map(lambda x: x.count('а'),list1))
+# song = 'пара-ра-рам рам-пам-папам па-ра-да'
+# letter=set(map(lambda x: x.count("аиуеоы"),song.split()))
 # if len(letter)==1: print('Парам пам-пам')
 # else: print('Пам парам')
 
